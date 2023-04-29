@@ -41,6 +41,12 @@ namespace coreJwtTokenClamebaseAuthentication.Models
                 Password = "rex321",
                 Role = "admin"
             });
+            users.Add(new UserDTO
+            {
+                UserName = "realJoty",
+                Password = "joty123",
+                Role = "admin"
+            });
 
             statelist.Add(new stateList { stateId = 1, stateName = "Odisha" });
             statelist.Add(new stateList { stateId = 2, stateName = "Bihar" });
